@@ -1,0 +1,97 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(137, 133, 133);
+}
+ul{
+    background-color:green;
+    color: white;
+    list-style: none;
+    margin:0px
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li:hover{
+    background-color: black;
+    color: white;
+}
+.Course{
+    position:absolute;
+    top: 38px;
+    left: 167px;
+}
+.Course ul{
+    margin: 0px;
+    padding: 0px;
+}
+.Course ul li{
+    display:block;
+}
+.Course{
+    display: none;
+}
+ul li:hover .Course{
+    display: block;
+}
+#ADCA{
+    display: block;
+    position:absolute;
+    top: 0px;
+    left: 65px;
+}
+#ADCA{
+    display: none;
+}
+.Course ul li:hover #ADCA{
+    display: block;
+}
+#DCA{
+    display: block;
+    position: absolute;
+    top: 38px;
+    left: 65px;
+}
+#DCA{
+    display: none;
+}
+.Course ul li:hover #DCA{
+    display: block;
+}
+#CCC{
+    display: block;
+    position: absolute;
+    top: 76px;
+    left: 65px;
+}
+#CCC{
+    display: none;
+}
+.Course ul li:hover #CCC{
+    display: block;
+}
+#DFA{
+    display: block;
+    position: absolute;
+    top: 114px;
+    left: 65px;
+}
+#DFA{
+    display: none;
+}
+.Course ul li:hover #DFA{
+    display: block;
+}
+#DTP{
+    display: block;
+    position: absolute;
+    top: 152px;
+    left: 65px;
+}
+#DTP{
+    display: none;
+}
+.Course ul li:hover #DTP{
+    display: block;
+}
